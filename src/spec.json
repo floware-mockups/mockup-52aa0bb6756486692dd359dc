@@ -1,0 +1,155 @@
+{
+  "title": "Gestione permessi ZTL",
+  "description": "Prototipo per consultare, filtrare e richiedere permessi di accesso alla zona a traffico limitato del centro storico.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "riepilogo",
+      "title": "Riepilogo",
+      "description": "Panoramica dei permessi e delle scadenze del mese.",
+      "metrics": [
+        {
+          "label": "Permessi attivi",
+          "value": "128"
+        },
+        {
+          "label": "In scadenza questo mese",
+          "value": "14"
+        },
+        {
+          "label": "Richieste in valutazione",
+          "value": "9"
+        }
+      ],
+      "columns": [
+        "Tipo",
+        "Targa",
+        "Validità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Residente",
+          "LV-482-NB",
+          "03/06/2026–02/06/2027",
+          "Attivo"
+        ],
+        [
+          "Carico e scarico",
+          "NU-731-VE",
+          "12/06/2025–11/06/2026",
+          "In scadenza"
+        ],
+        [
+          "Disabili generico",
+          "VE-205-LU",
+          "18/06/2025–17/06/2026",
+          "In scadenza"
+        ],
+        [
+          "Residente",
+          "LU-916-NB",
+          "21/01/2026–20/01/2027",
+          "Attivo"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "permessi",
+      "title": "Permessi",
+      "description": "Elenco filtrabile dei permessi ZTL. La ricerca e il filtro per scadenza sono controlli di consultazione, separati dal modulo di inserimento.",
+      "metrics": [
+        {
+          "label": "Risultati",
+          "value": "128"
+        },
+        {
+          "label": "In scadenza entro 30 giorni",
+          "value": "14"
+        }
+      ],
+      "columns": [
+        "Tipo",
+        "Targa",
+        "Validità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Residente",
+          "LV-482-NB",
+          "03/06/2026–02/06/2027",
+          "Attivo"
+        ],
+        [
+          "Carico e scarico",
+          "NU-731-VE",
+          "12/06/2025–11/06/2026",
+          "In scadenza"
+        ],
+        [
+          "Disabili generico",
+          "VE-205-LU",
+          "18/06/2025–17/06/2026",
+          "In scadenza"
+        ],
+        [
+          "Residente",
+          "LU-916-NB",
+          "21/01/2026–20/01/2027",
+          "Attivo"
+        ],
+        [
+          "Carico e scarico",
+          "NB-364-LU",
+          "01/06/2025–31/05/2026",
+          "Scaduto"
+        ],
+        [
+          "Residente",
+          "VE-852-NU",
+          "15/09/2025–14/09/2026",
+          "Attivo"
+        ],
+        [
+          "Disabili generico",
+          "LU-540-VE",
+          "25/06/2025–24/06/2026",
+          "In scadenza"
+        ],
+        [
+          "Carico e scarico",
+          "LV-193-NU",
+          "07/07/2025–06/07/2026",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Tipo",
+        "Targa",
+        "Validità",
+        "Stato"
+      ]
+    },
+    {
+      "id": "richiesta-permesso",
+      "title": "Richiesta permesso",
+      "description": "Inserisci i dati essenziali per registrare una nuova richiesta di accesso alla ZTL.",
+      "metrics": [],
+      "columns": [
+        "Tipo",
+        "Targa",
+        "Validità",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Tipo",
+        "Targa",
+        "Validità",
+        "Stato"
+      ]
+    }
+  ]
+}
